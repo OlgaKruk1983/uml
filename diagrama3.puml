@@ -1,0 +1,15 @@
+@startuml diagrama3
+
+actor carlos 
+database baseDeDatos #Red
+
+carlos -> baseDeDatos: saludas
+
+carlos -> olga: saluda
+
+note right: cortesia 
+olga -> olga:¿carlos me esta saludando?
+
+carlos <-- olga: hola
+
+@enduml

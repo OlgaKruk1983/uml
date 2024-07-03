@@ -1,0 +1,12 @@
+@startuml
+
+== Comienzo ==
+Elemento1 -X Elemento2
+Elemento2 -[#000fff]-\ Elemento1
+Elemento2 <-> Elemento1
+
+== Final ==
+Elemento1 ->o Elemento2
+
+
+@enduml

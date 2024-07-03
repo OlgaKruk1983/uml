@@ -1,0 +1,18 @@
+@startuml diagrama9
+
+actor Acto
+
+
+Acto --> PHP
+
+database MySQL #Red
+
+PHP --> MySQL
+
+MySQL --> PHP
+
+PHP --> Acto
+
+
+
+@enduml

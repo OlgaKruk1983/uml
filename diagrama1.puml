@@ -1,0 +1,7 @@
+@startuml diagrama1
+
+hola -> como: estas
+
+
+
+@enduml

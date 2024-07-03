@@ -1,0 +1,25 @@
+@startuml diagrama6
+
+class Clase1{
+    toString()
+}
+
+class Clase2{
+    String[] elementos
+    mostrarElementos
+}
+
+Clase1 <|-[#0066ff]- Clase2
+Clase1 <|-[#0066ff]- Clase3
+
+Clase4 "1" *-[#0066ff]- "n" Clase5 : agregar
+
+class Clase8 {
+    String[] elementos
+    mostrarElementos
+}
+Clase6 <|-- Clase7
+Clase6 <|-- Clase8
+
+
+@enduml
